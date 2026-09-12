@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
                 <title>Lab 6 Mock Exam</title>
             </head>
             <body>
-                <h1>Lab 6 Deployment Successful! 🎉</h1>
+                <h1>Lab 6 Deployment Successful yeeee! 🎉</h1>
                 <p>Deployed using GitHub Actions → VPS → Nginx.</p>
             </body>
         </html>

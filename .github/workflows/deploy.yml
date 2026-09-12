@@ -19,7 +19,6 @@ jobs:
           port: ${{ secrets.VPS_PORT }}
 
           script: |
-            echo "Connected to VPS!"
-            whoami
-            hostname
-            pwd
+            cd ~/lab6-mock
+            git pull origin main
+            echo "Deployment successful!"
